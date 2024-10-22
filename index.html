@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taş Kağıt Makas Oyunu</title>
+  <link rel="stylesheet" href="assets/css/tas-kagit-makas.css">
+</head>
+<body>
+  <div class="game-area">
+    <div class="game-area-inner">
+      <h1>Taş Kağıt Makas Oyunu</h1>
+      <div class="choice-section">
+        <div class="user" id="userChoice">
+          <h2>Oyuncu</h2>
+          <div class="user-choice-area">
+            <button id="rock">Taş</button>
+            <button id="paper">Kağıt</button>
+            <button id="scissors">Makas</button>
+          </div>
+      </div>
+      <div class="computer-area">
+        <h2>Bilgisayar</h2>
+        <div id="computerChoice" class="computer-choice"></div>
+      </div>
+      </div>
+      <div class="score-content">
+        <p>Oyuncu: <span id="userScoreTxt">0</span></p>
+        <p>Bilgisayar: <span id="computerScoreTxt">0</span></p>
+      </div>
+
+      <div class="result-section">
+        <button id="winnerBtn" class="winner-button">Kazanan <span id="winnerBtnTxt"></span></button>
+        <button id="clearBtn" class="clear-button">Skorları Temizle</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/tas-kagit-makas.js"></script>
+
+</body>
+</html>
